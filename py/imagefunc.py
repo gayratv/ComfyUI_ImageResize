@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 def log(message: str, message_type: str = 'info'):
-    name = 'LayerStyle'
+    name = 'ImageResize'
     if message_type == 'error':
         message = '\033[1;41m' + message + '\033[m'
     elif message_type == 'warning':
@@ -13,7 +13,7 @@ def log(message: str, message_type: str = 'info'):
         message = '\033[1;32m' + message + '\033[m'
     else:
         message = '\033[1;33m' + message + '\033[m'
-    print(f"# 😺ImageResize: {name} -> {message}")
+    print(f"# 🐂 ImageResize: {name} -> {message}")
 
 def pil2tensor(image: Image) -> torch.Tensor:
     """Convert a PIL Image to a normalized torch Tensor."""
