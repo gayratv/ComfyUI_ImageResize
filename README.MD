@@ -1,3 +1,6 @@
+FORK from
+https://github.com/chflame163/ComfyUI_LayerStyle
+
 # ComfyUI Layer Style
 
 ## Important note
