@@ -1,11 +1,4 @@
-"""Image process functions for ComfyUI nodes
-by chflame https://github.com/chflame163
-
-@author: chflame
-@title: LayerStyle
-@nickname: LayerStyle
-@description: A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.
-"""
+# файл imagefunc.py
 
 import os
 import sys

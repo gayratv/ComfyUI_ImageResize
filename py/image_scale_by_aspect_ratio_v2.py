@@ -1,3 +1,4 @@
+# файл image_scale_by_aspect_ratio_v2.py
 import torch
 from PIL import Image
 import math
